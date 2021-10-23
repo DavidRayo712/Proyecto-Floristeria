@@ -1,0 +1,233 @@
+* {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    /* background-image: url("../img/fondo.png");
+    background-repeat: repeat; */
+}
+
+/* titulo */
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(206, 156, 138);
+    border-bottom: 3px solid rgb(206, 156, 138);
+}
+
+
+/* barra de navegación */
+
+header {
+    background-color: rgb(240, 234, 223);
+    width: 100%;
+    border-bottom: 3px solid rgb(206, 156, 138);
+}
+
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.contacto h3 a {
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logo img {
+    display: block;
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    background-color: rgb(206, 156, 138);
+    margin: 5px 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+li a:hover {
+    color: rgb(247, 218, 196);
+}
+
+/* animacion logo */
+.logo img{
+    animation-name: cambios1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+/* Definición de la animación */
+@keyframes cambios1 {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 0.6;
+        transform: translate(0,20px);
+    }
+
+    80% {
+        opacity: 1;
+    }
+}
+
+/* seccion principal */
+
+.seccion-principal {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 100px;
+}
+
+.seccion-rosas {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 100px;
+}
+
+.seccion-principal p,
+.seccion-rosas p {
+    font-size: 28px;
+    color: rgb(206, 156, 138);
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.seccion-rosas p {
+    font-size: 24px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+    background-color: rgba(240, 234, 223, 0.9);
+    border-radius: 20px;
+}
+
+
+/* formulario */
+form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(240, 234, 223);
+}
+
+textarea {
+    width: 40%;
+}
+
+
+
+/* pie de página */
+footer {
+    background-color: rgb(227, 203, 177);
+    border-top: 3px solid rgb(206, 156, 138);
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    color: white;
+}
+
+footer h3 {
+    color: rgb(206, 156, 138);
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 22px;
+}
+
+footer p {
+    color: rgb(82, 77, 77);
+    font-size: 16px;
+    font-style: italic;
+}
+
+.contacto {
+    grid-column: 1/2;
+    grid-row: 1;
+    padding: 10px;
+}
+
+
+.contacto h3 a {
+    color: rgb(206, 156, 138);
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.empresa {
+    grid-column: 2/3;
+    grid-row: 1;
+    padding: 10px;
+}
+
+.empresa p {
+    text-align: center;
+}
+
+.empresa p a {
+    color: rgb(206, 156, 138);
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+
+
+.redes {
+    grid-column: 3/4;
+    grid-row: 1;
+    padding: 10px;
+}
+
+.redes .iconos {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 100px;
+
+}
+
+
+.icono-red {
+    width: 50%;
+}

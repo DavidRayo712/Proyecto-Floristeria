@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Torres">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Floristería David</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <a href="../index.html">
+            <img src="../img/logo.png" alt="logo-floristeria">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="flores.html">FLORES</a>
+                </li>
+                <li>
+                    <a href="rosas.html">ROSAS</a>
+                </li>
+                <li>
+                    <a href="plantas.html">PLANTAS</a>
+                </li>
+                <li>
+                    <a href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="titulo">
+            <h1>Contacto</h1>
+        </div>
+    </main>
+
+    <section>
+        <form action="../../form-result.php" target="_blank">
+            <fieldset>
+                <legend>Información personal</legend>
+                <p><label>Nombre: <input type="text" name="nombre"></label></p>
+                <p><label>Apellidos: <input type="text" name="apellidos"></label></p>
+                <p><label>email: <input type="email" name="email"></label></p>
+                <p>
+                    <select>
+                        <option value="soltero">Soltero/a</option>
+                        <option value="casado">Casado/a</option>
+                        <option value="divorciado">Divorciado/a</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentarios</legend>
+
+                <p>Desea recibir Newsletter: <input type="checkbox" name="news"></p>
+
+                <p>
+                    Tu mensaje:<br>
+                    <textarea name="mensaje" placeholder="comentarios"></textarea>
+                </p>
+
+            </fieldset>
+
+            <div class="btn">
+                <input type="submit" value="Limpiar Formulario">
+                <input type="submit" value="Enviar Formulario">
+            </div>
+        </form>
+
+
+
+
+    </section>
+
+
+    <!-- pie de página -->
+    <footer>
+        <div class="container">
+            <div class="contacto">
+                <h3>Contacto</h3>
+                <p>email: acliente@flor-david.ar</p>
+                <p> teléfono: +54 744 42 94</p>
+                <p>Calle del Carmen 40</p>
+                <p>Córdoba</p>
+            </div>
+            <div class="empresa">
+                <h3>Empresa</h3>
+                <p>Floristería David pone a tu disposición una gran variedad de flores y plantas a domicilio:</p>
+                <p><a href="flores.html">Flores</a></p>
+                <p><a href="rosas.html">Rosas</a></p>
+                <p><a href="plantas.html">Plantas</a></p>
+            </div>
+            <div class="redes">
+                <div class="iconos">
+                    <p><img src="../img/iconos/facebook.png" alt="red-facebook" class="icono-red"></p>
+                    <p><img src="../img/iconos/instagram.png" alt="red-instragram" class="icono-red"></p>
+                    <p><img src="../img/iconos/twitter.png" alt="red-twitter" class="icono-red"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
