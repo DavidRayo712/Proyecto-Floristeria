@@ -154,7 +154,6 @@ textarea {
 }
 
 
-
 /* pie de página */
 footer {
     background-color: rgb(227, 203, 177);
@@ -188,7 +187,6 @@ footer p {
     padding: 10px;
 }
 
-
 .contacto h3 a {
     color: rgb(206, 156, 138);
     font-style: oblique;
@@ -210,8 +208,6 @@ footer p {
     font-style: oblique;
     font-weight: bolder;
 }
-
-
 
 .redes {
     grid-column: 3/4;
