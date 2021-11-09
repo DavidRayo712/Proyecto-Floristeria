@@ -2,101 +2,73 @@
 <html lang="es">
 
 <head>
+    <!-- metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="David Torres">
+    <!-- titulo -->
+    <title>Plantas | Floristería David</title>
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <title>Floristería David</title>
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link hoja de estilos interna -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
+
     <header>
-
+        <!-- logo -->
         <div class="logo">
-            <a href="../index.html">
-                <img src="../img/logo.png" alt="logo-floristeria">
-            </a>
+            <img src="../img/logo.png" alt="logo-floristeria">
         </div>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="flores.html">FLORES</a>
-                </li>
-                <li>
-                    <a href="rosas.html">ROSAS</a>
-                </li>
-                <li>
-                    <a href="#">PLANTAS</a>
-                </li>
-                <li>
-                    <a href="contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
+        <!-- inicio navegación -->
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="flores.html">FLORES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rosas.html">ROSAS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PLANTAS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+        <!-- fin navegación -->
     </header>
-
     <main>
         <div class="titulo">
             <h1>Plantas</h1>
         </div>
     </main>
 
+    <div class="container">
+        <p>
+            ¿Pensando en adornar la casa o el jardín? Sin problema, también tenemos una variada cantidad de plantas para
+            decoración de espacios como jardines, terrazas, interiores y mucho más.</p>
+    </div>
+
     <section class="seccion-principal">
-        <!-- <div class="box1">
-            <img src="../img/flores/complicidad.png" alt="flores">
-            <p>Complicidad</p>
+        <div class="box1">
+            <img src="../img/plantas.png" alt="plantas">
         </div>
-
-        <div class="box2">
-            <img src="../img/flores/egeo.png" alt="flores">
-            <p>Egeo</p>
+        <div class="box1">
+            <img src="../img/plantas2.jpg" alt="plantas">
         </div>
-
-        <div class="box3">
-            <img src="../img/flores/quarzo.png" alt="flores">
-            <p>Quarzo</p>
+        <div class="box1">
+            <img src="../img/plantas.png" alt="plantas">
         </div>
-        <div class="box4">
-            <img src="../img/flores/templanza.png" alt="flores">
-            <p>Templanza</p>
-        </div>
-
-        <div class="box5">
-            <img src="../img/flores/hahia.png" alt="flores">
-            <p>Bahía</p>
-        </div>
-
-        <div class="box6">
-            <img src="../img/flores/tercia.png" alt="flores">
-            <p>Tercia</p>
-        </div>
-        <div class="box7">
-            <img src="../img/flores/abrazo.png" alt="flores">
-            <p>Abrazo</p>
-        </div>
-
-        <div class="box8">
-            <img src="../img/flores/indico.png" alt="flores">
-            <p>Indico</p>
-        </div>
-
-        <div class="box9">
-            <img src="../img/flores/tempus.png" alt="flores">
-            <p>Tempus</p>
-        </div>
-
-
- -->
-
     </section>
-
 
     <!-- pie de página -->
     <footer>
@@ -126,7 +98,10 @@
             </div>
         </div>
     </footer>
-
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
